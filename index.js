@@ -1,6 +1,6 @@
-function BoardMember(name, homestate, training) {
+function BoardMember(name, homeState, training) {
   this.name = name;
-  this.homestate = homestate;
+  this.homeState = homeState;
   this.training = training;
 };
 
@@ -21,5 +21,5 @@ BoardMember.prototype.releasePressStatement = function() {
 };
 
 BoardMember.prototype.sayHi = function() {
-  return `Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}.`
+  return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
 }
