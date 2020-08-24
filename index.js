@@ -17,7 +17,7 @@ BoardMember.prototype.doCharity = function() {
 };
 
 BoardMember.prototype.releasePressStatement = function() {
-  return "You will seee greate things from Scuber.";
+  return "You will see greate things from Scuber.";
 };
 
 BoardMember.prototype.sayHi = function() {
